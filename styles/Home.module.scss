@@ -1,38 +1,47 @@
-@import './main.module.scss';
+// @import './main.module.scss';
 
 .container {
     display: flex;
     flex-direction: column;
+    // background-color: var(--c-dark-blue);
+}
 
+// .content {
+//     display: flex;
+//     flex-direction: column;
+
+//     @include breakpoint('sm') {
+//         flex-direction: row;
+//         justify-content: space-between;
+//     }
+
+//     & > .column + .column {
+//         @include breakpoint('sm') {
+//             margin-left: 40px;
+//         }
+//     }
+// }
+
+// .textContainer {
+//     max-width: 45ch;
+// }
+
+// .column {
+//     width: 100%;
+
+//     @include breakpoint('sm') {
+//         width: calc(50% - 20px);
+//         flex-shrink: 0;
+//     }
+// }
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.test {
     height: 100vh;
-    background-color: var(--c-dark-blue);
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-
-    @include breakpoint('sm') {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    & > .column + .column {
-        @include breakpoint('sm') {
-            margin-left: 40px;
-        }
-    }
-}
-
-.textContainer {
-    max-width: 45ch;
-}
-
-.column {
-    width: 100%;
-
-    @include breakpoint('sm') {
-        width: calc(50% - 20px);
-        flex-shrink: 0;
-    }
+.home-bg {
+    height: 100vh;
+    background-image: url(/public/homepage-01.png);
 }
