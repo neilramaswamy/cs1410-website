@@ -1,6 +1,6 @@
 import { Header } from 'components/Header'
 import styles from 'styles/Home.module.scss'
-// import bg from 'public/homebg.png'
+import Table from 'react-bootstrap/Table'
 
 const Home = (): JSX.Element => {
 
@@ -30,6 +30,17 @@ const Home = (): JSX.Element => {
             {/* LECTURES */}
             <div className={styles.section}>
                 <h1>Lectures</h1>
+
+                <Table striped bordered hover>
+                    <thead>
+                        <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Username</th>
+                        </tr>
+                    </thead>
+                </Table>
             </div>
 
             {/* PROJECTS */}
@@ -45,6 +56,9 @@ const Home = (): JSX.Element => {
             {/* HOURS */}
             <div className={styles.section}>
                 <h1>Hours</h1>
+                <p>
+                    In person TA Hours are held at the CIT Room 205. 
+                </p>
             </div>
 
             {/* STAFF */}
