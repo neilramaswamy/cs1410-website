@@ -1,47 +1,42 @@
-// @import './main.module.scss';
-
-.container {
-    display: flex;
-    flex-direction: column;
-    // background-color: var(--c-dark-blue);
+.homebg {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), 85%, rgba(0, 0, 0, 0.95)), url(~public/homebg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-// .content {
-//     display: flex;
-//     flex-direction: column;
-
-//     @include breakpoint('sm') {
-//         flex-direction: row;
-//         justify-content: space-between;
-//     }
-
-//     & > .column + .column {
-//         @include breakpoint('sm') {
-//             margin-left: 40px;
-//         }
-//     }
-// }
-
-// .textContainer {
-//     max-width: 45ch;
-// }
-
-// .column {
-//     width: 100%;
-
-//     @include breakpoint('sm') {
-//         width: calc(50% - 20px);
-//         flex-shrink: 0;
-//     }
-// }
-
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.test {
-    height: 100vh;
+.section {
+    margin: 3vh 4vw;
 }
 
-.home-bg {
-    height: 100vh;
-    background-image: url(/public/homepage-01.png);
+.section h1 {
+    padding-top: 1vh;
+    font-family: arcade_normalregular, Arial, sans-serif;
+    font-size: 25px;
+    color:rgba(255,255,0,0.85);
+}
+
+.section p {
+    // not set on this font
+    font-family: 'modesevenregular', Arial, sans-serif;
+    font-size: 16px;
+    color:rgba(255, 255, 255, 0.75);
+}
+
+// FONT DECLARATIONS
+
+@font-face {
+    font-family: 'arcade_normalregular';
+    src: url('fonts/arcade_n/arcade_n-webfont.woff2') format('woff2'),
+         url('fonts/arcade_n/arcade_n-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'modesevenregular';
+    src: url('fonts/mode_seven/modeseven-l3n5-webfont.woff2') format('woff2'),
+         url('fonts/mode_seven/modeseven-l3n5-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }

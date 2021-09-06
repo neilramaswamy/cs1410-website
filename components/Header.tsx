@@ -11,9 +11,14 @@ export const Header = (): JSX.Element => {
     return (
         <header className={styles.container}>
             <div>{/* Logo goes here! */}</div>
-
             <section className={styles.linkContainer}>
-                <Link href="thisnowork">{headerLinkContent('This no work')}</Link>
+                <Link href="thisnowork">{headerLinkContent('TODO: make navbar!!')}</Link>
+                <Link href="thisnowork">{headerLinkContent('Info')}</Link>
+                <Link href="thisnowork">{headerLinkContent('Lectures')}</Link>
+                <Link href="thisnowork">{headerLinkContent('Projects')}</Link>
+                <Link href="thisnowork">{headerLinkContent('Resources')}</Link>
+                <Link href="thisnowork">{headerLinkContent('Hours')}</Link>
+                <Link href="thisnowork">{headerLinkContent('Staff')}</Link>
             </section>
         </header>
     )

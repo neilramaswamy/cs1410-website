@@ -1,6 +1,9 @@
-.container {
-    padding: 30px 0;
+// @import url('../styles/Home.module.scss');
 
+.container {
+    background: linear-gradient(to bottom, black, 50%, rgba(0, 0, 255, 0));
+    padding: 20px 0;
+    color:white;
     display: flex;
     justify-content: space-between;
 }
@@ -12,4 +15,14 @@
 .headerLinkText {
     margin: 0;
     display: inline;
+    font-size: 18px;
+    font-family:'modesevenregular', Arial, sans-serif;
+}
+
+@font-face {
+    font-family: 'modesevenregular';
+    src: url('../styles/fonts/mode_seven/modeseven-l3n5-webfont.woff2') format('woff2'),
+         url('../styles/fonts/mode_seven/modeseven-l3n5-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }

@@ -1,27 +1,57 @@
 import { Header } from 'components/Header'
-import 'styles/Home.module.scss'
-import bg from '../img/homebg.png'
+import styles from 'styles/Home.module.scss'
+// import bg from 'public/homebg.png'
 
 const Home = (): JSX.Element => {
 
     return (
         <div className='home'>
-            <Header />
 
-            {/* <div className={styles.content}>{leftColumn}</div> */}
+            <div className={styles.homebg}>
+                <Header/>
+            </div>
 
-            <h1>Welcome to CS 1410.</h1>
+            {/* COURSE INFO */}
+            <div className={styles.section} id={styles.intro}>
+                <h1> Welcome to CS 1410!</h1>
+                <p>
+                    We're gonna teach you how to teach computers common sense. All while trying to be
+                    ethical about it.
+                </p>
+                <p>
 
-            <p>
-                We're gonna teach you how to teach computers common sense. All while trying to be
-                ethical about it. jdiaof
-            </p>
+                    CS1410 is an introductory course to the field of Artificial Intelligence, including knowledge representation and algorithms for search, optimization, planning, logical and probabilistic reasoning, and machine learning.
+                </p>
+                <p>
+                    In person lectures take place Tuesdays and Thursdays from 1:00pm am to 2:20pm eastern time, which will be accessible to remote students. Prerequisites to CS1410 include (CSCI 0160, 0180 or 0190) and (CSCI 0220, 1450, 0450, APMA 1650 or 1655) or minimum score of WAIVE in 'Graduate Student PreReq'. This course is taught by Professor George Konidaris.
+                </p>
+            </div>
 
-            <div className='test'/>
+            {/* LECTURES */}
+            <div className={styles.section}>
+                <h1>Lectures</h1>
+            </div>
 
-            <img src={bg} alt='home background image'/>
+            {/* PROJECTS */}
+            <div className={styles.section}>
+                <h1>Projects</h1>
+            </div>
 
-            <div className='home-bg'/>
+            {/* RESOURCES */}
+            <div className={styles.section}>
+                <h1>Resources</h1>
+            </div>
+
+            {/* HOURS */}
+            <div className={styles.section}>
+                <h1>Hours</h1>
+            </div>
+
+            {/* STAFF */}
+            <div className={styles.section}>
+                <h1>Staff</h1>
+            </div>
+
 
         </div>
     )
