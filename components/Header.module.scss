@@ -3,13 +3,13 @@
 .container {
     background: linear-gradient(to bottom, black, 50%, rgba(0, 0, 255, 0));
     padding: 20px 0;
-    color:white;
     display: flex;
     justify-content: space-between;
 }
 
 .linkContainer > a + a {
     margin-left: 2rem;
+    text-decoration: none;
 }
 
 .headerLinkText {
@@ -17,6 +17,7 @@
     display: inline;
     font-size: 18px;
     font-family:'modesevenregular', Arial, sans-serif;
+    color:white;
 }
 
 @font-face {
