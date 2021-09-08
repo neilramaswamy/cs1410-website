@@ -3,6 +3,7 @@ import { StaffCard } from 'components/StaffCard'
 import { SectionID } from 'data/sectionID'
 import styles from 'styles/Home.module.scss'
 import { StaffMembers } from '../data/staff'
+// files
 
 const Home = (): JSX.Element => {
     return (
@@ -33,7 +34,7 @@ const Home = (): JSX.Element => {
                 <div className={styles.section} id={SectionID.Lectures}>
                     <h1>Lectures</h1>
                     <p>
-                        In person lectures take place Tuesdays and Thursdays from 1:00pm am to
+                        In person lectures take place Tuesdays and Thursdays from 1:00pm to
                         2:20pm eastern time. Recordings will be available for remote students.
                     </p>
                     <table className={styles.table}>
@@ -175,14 +176,14 @@ const Home = (): JSX.Element => {
                         <tbody>
                             <tr>
                                 <td>
-                                    <a href="/files/2021_CS1410_grading_policy.pdf" download>
+                                    <a href="/files/2021_CS1410_grading_policy.pdf" target="_blank">
                                         Grading and Late Day Policy
                                     </a>
                                 </td>
                                 <td>
                                     <a
                                         href="/files/Gradescope_instructions_1410_2021Fall.pdf"
-                                        download
+                                        target="_blank"
                                     >
                                         Gradescope: Getting Started
                                     </a>
@@ -192,7 +193,12 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td></td>
                                 <td>
-                                    <a>Installation & Setup</a>
+                                    <a
+                                        href="/files/python_setup.md"
+                                        target="_blank"
+                                    >
+                                        Installation & Setup
+                                    </a>
                                 </td>
                                 <td>
                                     <a
