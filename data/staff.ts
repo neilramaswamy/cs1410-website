@@ -57,7 +57,7 @@ export const StaffMembers: StaffMember[] = [
         url: "/profile_pics/jason_g.jpg",
     },
     {
-        name: "Kevin L",
+        name: "Kevin L (STA)",
         pronouns: "klu25 (he/him)",
         bio: "Hello, I’m c/o 2024 and I’m from New Orleans. I like to go to the gym, rock climbing, and listen to music.",
         fav: "Tetris",
@@ -88,7 +88,7 @@ export const StaffMembers: StaffMember[] = [
         name: "Rena J",
         pronouns: "rjiang6 (she/her)",
         bio: "Hi! I'm a junior from Shanghai studying CS and vis arts.",
-        fav: "Snakes",
+        fav: "Snake",
         url: "/profile_pics/rena.png",
     },
     {

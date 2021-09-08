@@ -64,8 +64,8 @@
     background-color: rgba(26, 26, 26, 0.85);
 }
 
-.topic {
-    width: 30vw;
+.table a {
+    text-decoration: underline wavy rgba(255, 255, 255, 0.3);
 }
 
 // CALENDAR
@@ -84,6 +84,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+}
+
+.emails {
+    text-align: center;
 }
 
 // FONT DECLARATIONS

@@ -48,16 +48,40 @@ const Home = (): JSX.Element => {
                         </thead>
                         <tbody>
                             <tr>
-                                <td>1</td>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
+                                <td>9/9 Introduction; Agents and Agenthood</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>2</td>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
+                                <td>9/14 Search</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>9/16 Game Theory</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>9/21 Adversarial Search</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>9/23 Knowledge Representation and Reasoning (Logical)</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>9/30 Uncertain Knowledge and Bayes' Rule </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                         </tbody>
                     </table>
@@ -73,7 +97,7 @@ const Home = (): JSX.Element => {
                         late days for all (not each) project. Read more about the grading policy in
                         the Resources section.{' '}
                     </p>
-                    <table className={styles.table}>
+                    <table className={styles.table} id={styles.projects_table}>
                         <thead>
                             <tr>
                                 <th>Project</th>
@@ -85,7 +109,14 @@ const Home = (): JSX.Element => {
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Install Assignment</td>
+                                <td>
+                                    <a
+                                        href='/files/install_handout.pdf'
+                                        target='_blank'
+                                    > 
+                                        Install Assignment
+                                    </a>
+                                </td>
                                 <td>Sept 9</td>
                                 <td>Sept 12</td>
                                 <td>N/A</td>
@@ -188,15 +219,23 @@ const Home = (): JSX.Element => {
                                         Gradescope: Getting Started
                                     </a>
                                 </td>
-                                <td>Edmodo</td>
+                                <td>
+                                    <a
+                                        href="https://edstem.org/us/join/4yrTee"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        EdStem
+                                    </a>
+                                </td>
                             </tr>
                             <tr>
                                 <td></td>
                                 <td>
                                     <a
-                                        href="/files/python_setup.md"
-                                        target="_blank"
-                                    >
+                                        href='https://docs.google.com/document/d/1hIOsp8SWZ5TJQpKyUgCtgKYk_ras92UiU6ljDC7qaUY/edit?usp=sharing'
+                                        target='_blank'
+                                    > 
                                         Installation & Setup
                                     </a>
                                 </td>
@@ -210,6 +249,19 @@ const Home = (): JSX.Element => {
                                     </a>
                                 </td>
                             </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <a
+                                        href="/files/requirements.txt"
+                                        download
+                                    >
+                                        requirements.txt
+                                    </a>
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -217,7 +269,7 @@ const Home = (): JSX.Element => {
                 {/* HOURS */}
                 <div className={styles.section} id={SectionID.Hours}>
                     <h1>Hours</h1>
-                    <p>In person TA Hours are held at the CIT Room 205.</p>
+                    <p>In person TA Hours are held at the CIT Room 205. TA Hours will be available for remote students, times TBD!</p>
                     <div className={styles.calendar}>
                         <iframe
                             src="https://calendar.google.com/calendar/embed?src=c_0580pi2rbochd9cq2l6gpch8b0%40group.calendar.google.com&ctz=America%2FNew_York"
@@ -240,6 +292,9 @@ const Home = (): JSX.Element => {
                         {StaffMembers.map((s) => (
                             <StaffCard {...s} />
                         ))}
+                    </div>
+                    <div className={styles.emails}>
+                        <p>gdk@cs.brown.edu <br/> cs1410headtas@lists.brown.edu</p>
                     </div>
                 </div>
             </div>
