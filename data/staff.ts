@@ -19,7 +19,7 @@ export const StaffMembers: StaffMember[] = [
         pronouns: "jchoi38 (he/him)",
         bio: "I am a senior from Korea. I still don't feel like I know anything about AI.",
         fav: "Super Mario",
-        url: "/profile_pics/jinwoo.png",
+        url: "/profile_pics/jinwoo.PNG",
     },
     {
         name: "Rachel M (HTA)",
@@ -47,7 +47,7 @@ export const StaffMembers: StaffMember[] = [
         pronouns: "jcrowle5 (he/him)",
         bio: "I'm a senior from Newton, MA. I like to play Smash Bros. and board games like Codenames with friends!",
         fav: "Pac-Man",
-        url: "/profile_pics/jason_c.jpg",
+        url: "/profile_pics/jason_c.JPG",
     },
     {
         name: "Jason G",
@@ -82,7 +82,7 @@ export const StaffMembers: StaffMember[] = [
         pronouns: "pkrupski (he/him)",
         bio: "I am from upstate NY and for hobbies enjoy road trips, camping, and national parks.",
         fav: "Cruis'n USA",
-        url: "/profile_pics/paul.png",
+        url: "/profile_pics/paul.PNG",
     },
     {
         name: "Rena J",
