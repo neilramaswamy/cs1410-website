@@ -4,9 +4,11 @@
 
 .homebg {
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), 85%, rgba(0, 0, 0, 0.95)), url(~public/graphics/homebg.png);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), 85%, rgba(0, 0, 0, 0.95)),
+        url(~public/graphics/homebg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .section {
@@ -18,14 +20,14 @@
     padding-top: 2vh;
     font-family: arcade_normalregular, Arial, sans-serif;
     font-size: 25px;
-    color:rgba(255,255,0,0.85);
+    color: rgba(255, 255, 0, 0.85);
 }
 
 .section p {
     // not set on this font
     font-family: 'modesevenregular', Arial, sans-serif;
     font-size: 16px;
-    color:rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75);
 }
 
 .main_body {
@@ -36,15 +38,18 @@
 
 // TABLES
 
-.table, .table th, .table td {
+.table,
+.table th,
+.table td {
     font-family: 'modesevenregular', Arial, sans-serif;
     font-size: 18px;
-    color:rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75);
     border: 3px solid black;
     border-collapse: collapse;
 }
 
-.table th, .table td {
+.table th,
+.table td {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
@@ -76,18 +81,18 @@
 
 // STAFF
 
-// .staff {
-//     display: flex;
-//     flex-flow: row wrap;
-//     justify-content: space-between;
-// }
+.staffWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
 // FONT DECLARATIONS
 
 @font-face {
     font-family: 'arcade_normalregular';
     src: url('fonts/arcade_n/arcade_n-webfont.woff2') format('woff2'),
-         url('fonts/arcade_n/arcade_n-webfont.woff') format('woff');
+        url('fonts/arcade_n/arcade_n-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -95,7 +100,7 @@
 @font-face {
     font-family: 'modesevenregular';
     src: url('fonts/mode_seven/modeseven-l3n5-webfont.woff2') format('woff2'),
-         url('fonts/mode_seven/modeseven-l3n5-webfont.woff') format('woff');
+        url('fonts/mode_seven/modeseven-l3n5-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

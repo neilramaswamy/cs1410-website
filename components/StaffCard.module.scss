@@ -6,8 +6,6 @@
     height: 360px;
     padding: 20px 20px;
     border-radius: 10px;
-    display: inline-block;
-    margin: 40px 20px;
 }
 
 .container img {
@@ -38,7 +36,7 @@
 @font-face {
     font-family: 'modesevenregular';
     src: url('../styles/fonts/mode_seven/modeseven-l3n5-webfont.woff2') format('woff2'),
-         url('../styles/fonts/mode_seven/modeseven-l3n5-webfont.woff') format('woff');
+        url('../styles/fonts/mode_seven/modeseven-l3n5-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
