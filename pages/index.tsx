@@ -135,26 +135,26 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td rowSpan={4}> Tron (4 parts) </td>
                                 <td>Oct 13</td>
-                                <td>N/A</td>
-                                <td>N/A</td>
+                                <td>TBD</td>
+                                <td>TBD</td>
                                 <td>Oct 18</td>
                             </tr>
                             <tr>
                                 <td>Oct 13</td>
-                                <td>N/A</td>
-                                <td>N/A</td>
+                                <td>TBD</td>
+                                <td>TBD</td>
                                 <td>Nov 1</td>
                             </tr>
                             <tr>
                                 <td>Oct 13</td>
-                                <td>N/A</td>
-                                <td>N/A</td>
+                                <td>TBD</td>
+                                <td>TBD</td>
                                 <td>Nov 22</td>
                             </tr>
                             <tr>
                                 <td>Oct 13</td>
-                                <td>N/A</td>
-                                <td>N/A</td>
+                                <td>TBD</td>
+                                <td>TBD</td>
                                 <td>Dec 17</td>
                             </tr>
                         </tbody>
