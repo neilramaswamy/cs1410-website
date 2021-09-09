@@ -3,7 +3,6 @@ import { StaffCard } from 'components/StaffCard'
 import { SectionID } from 'data/sectionID'
 import styles from 'styles/Home.module.scss'
 import { StaffMembers } from '../data/staff'
-// files
 
 const Home = (): JSX.Element => {
     return (
