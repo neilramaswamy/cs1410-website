@@ -66,9 +66,9 @@ export const StaffMembers: StaffMember[] = [
     {
         name: "Kunj P",
         pronouns: "kpadh (he/him)",
-        bio: "",
-        fav: "",
-        url: "",
+        bio: "Hi! I'm a senior concentrating in CS-Econ from Somerset, NJ. I enjoy reading, traveling, and playing video games.",
+        fav: "Pac-Man",
+        url: "/profile_pics/kunj.jpeg",
     },
     {
         name: "Neil R",
