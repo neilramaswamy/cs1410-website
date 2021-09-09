@@ -83,6 +83,30 @@ const Home = (): JSX.Element => {
                                 <td></td>
                                 <td></td>
                             </tr>
+                            <tr>
+                                <td>10/5 Hidden Markov Models </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>10/7 Robot Motion Planning</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>10/12 Classical Planning</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>10/14 Probabilistic Planning </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
