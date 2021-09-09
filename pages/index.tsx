@@ -283,14 +283,39 @@ const Home = (): JSX.Element => {
                                         requirements.txt
                                     </a>
                                 </td>
-                                <a
+                                <td>
+                                    <a
                                         href="https://browncs-health-and-wellness.github.io/"
                                         target="_blank"
                                     >
                                         CS Health & Wellness
                                     </a>
-                                <td>
                                 </td>
+                                {/* https://cs.brown.edu/about/system/connecting/ssh/ */}
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <a
+                                        href="https://cs.brown.edu/about/system/connecting/ssh/"
+                                        target="_blank"
+                                    >
+                                        Setting Up ssh
+                                    </a>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <a
+                                        href="/files/fastX_guide.pdf"
+                                        target="_blank"
+                                    >
+                                        FastX Guide
+                                    </a>
+                                </td>
+                                <td></td>
                             </tr>
                         </tbody>
                     </table>
