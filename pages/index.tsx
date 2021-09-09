@@ -259,6 +259,12 @@ const Home = (): JSX.Element => {
                                         requirements.txt
                                     </a>
                                 </td>
+                                <a
+                                        href="https://browncs-health-and-wellness.github.io/"
+                                        target="_blank"
+                                    >
+                                        CS Health & Wellness
+                                    </a>
                                 <td>
                                 </td>
                             </tr>
@@ -285,8 +291,6 @@ const Home = (): JSX.Element => {
                 {/* STAFF */}
                 <div className={styles.section} id={SectionID.Staff}>
                     <h1>Staff</h1>
-                    {/* link to hta emails/relecant contacts */}
-                    {/* cs1410headtas@lists.brown.edu */}
 
                     <div className={styles.staffWrapper}>
                         {StaffMembers.map((s) => (

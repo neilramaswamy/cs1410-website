@@ -31,9 +31,9 @@ export const StaffMembers: StaffMember[] = [
     {
         name: "Bowen H",
         pronouns: "bhe13 (he/him)",
-        bio: "",
-        fav: "",
-        url: "",
+        bio: "Coming from a northwestern city of China. Like reading, swimming and playing table tennis.",
+        fav: "Street Fighter",
+        url: "/profile_pics/bowen.jpg",
     },
     {
         name: "Edward T",
@@ -51,7 +51,7 @@ export const StaffMembers: StaffMember[] = [
     },
     {
         name: "Jason G",
-        pronouns: " (he/him)",
+        pronouns: "jgong15 (he/him)",
         bio: "Hello there, I'm Jason (G, distinct from C!)! I am a Senior from the suburbs of NYC studying CS and APMA-ECON.",
         fav: "Air Hockey",
         url: "/profile_pics/jason_g.jpg",
@@ -79,7 +79,7 @@ export const StaffMembers: StaffMember[] = [
     },
     {
         name: "Paul K",
-        pronouns: "pkrupski (he/him)",
+        pronouns: "pkrupski",
         bio: "I am from upstate NY and for hobbies enjoy road trips, camping, and national parks.",
         fav: "Cruis'n USA",
         url: "/profile_pics/paul.PNG",
