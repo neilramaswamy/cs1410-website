@@ -26,6 +26,9 @@ const Home = (): JSX.Element => {
                         include (CSCI 0160, 0180 or 0190) and (CSCI 0220, 1450, 0450, APMA 1650 or
                         1655) or minimum score of WAIVE in 'Graduate Student PreReq'. This course is
                         taught by Professor George Konidaris.
+
+                        Students interested in taking CS1410 as a capstone course should email George at 
+                        george_konidaris@brown.edu.
                     </p>
                 </div>
 
@@ -48,7 +51,7 @@ const Home = (): JSX.Element => {
                         <tbody>
                             <tr>
                                 <td>9/9 Introduction; Agents and Agenthood</td>
-                                <td></td>
+                                <td><a href='/slides/1410_1.pdf' target="_blank">pdf</a></td>
                                 <td></td>
                                 <td></td>
                             </tr>
