@@ -52,7 +52,7 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>9/9 Introduction; Agents and Agenthood</td>
                                 <td><a href='/slides/1410_1.pdf' target="_blank">pdf</a></td>
-                                <td></td>
+                                <td><a href='https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2487ea72-b2c1-41f1-a203-ad9c0142609a' target="_blank">pdf</a></td>
                                 <td></td>
                             </tr>
                             <tr>
