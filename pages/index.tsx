@@ -52,7 +52,7 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>9/9 Introduction; Agents and Agenthood</td>
                                 <td><a href='/slides/1410_1.pdf' target="_blank">pdf</a></td>
-                                <td><a href='https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2487ea72-b2c1-41f1-a203-ad9c0142609a' target="_blank">pdf</a></td>
+                                <td><a href='https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2487ea72-b2c1-41f1-a203-ad9c0142609a' target="_blank">link</a></td>
                                 <td></td>
                             </tr>
                             <tr>
@@ -256,7 +256,14 @@ const Home = (): JSX.Element => {
                                 </td>
                             </tr>
                             <tr>
-                                <td></td>
+                                <td>
+                                    <a
+                                        href="/files/Collaboration_Policy.pdf"
+                                        target="_blank"
+                                    >
+                                        Collaboration Policy
+                                    </a>
+                                </td>
                                 <td>
                                     <a
                                         href='https://docs.google.com/document/d/1hIOsp8SWZ5TJQpKyUgCtgKYk_ras92UiU6ljDC7qaUY/edit?usp=sharing'
