@@ -11,6 +11,8 @@
     background-position: center;
 }
 
+// SECTIONS
+
 .section {
     padding: 3vh 12vw;
 }
@@ -69,6 +71,12 @@
 }
 
 .table a {
+    text-decoration: underline wavy rgba(255, 255, 255, 0.3);
+}
+
+// LECTURE
+
+.lecture_link a {
     text-decoration: underline wavy rgba(255, 255, 255, 0.3);
 }
 

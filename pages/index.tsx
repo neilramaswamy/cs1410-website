@@ -35,9 +35,9 @@ const Home = (): JSX.Element => {
                 {/* LECTURES */}
                 <div className={styles.section} id={SectionID.Lectures}>
                     <h1>Lectures</h1>
-                    <p>
+                    <p className={styles.lecture_link}>
                         In person lectures take place Tuesdays and Thursdays from 1:00pm to
-                        2:20pm eastern time. Recordings will be available for remote students.
+                        2:20pm eastern time. Lectures slides will be posted prior to each lecture. Recordings will be available for remote students and review, which are available on <a href="https://brown.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22932ab3ad-c590-4c6f-b807-ad9c01423435%22" target='_blank'>Panopto</a>.
                     </p>
                     <table className={styles.table}>
                         <thead>
@@ -119,9 +119,7 @@ const Home = (): JSX.Element => {
                     <p>
                         All projects are in Python and due at 11:59pm Eastern on the listed date.
                         Before each project (besides the install assignment) you have two
-                        opportunities to receive results from our hidden tests. You are granted 3
-                        late days for all (not each) project. Read more about the grading policy in
-                        the Resources section.{' '}
+                        opportunities to receive results from our hidden tests. For instance, if you submit your code for Search to the 'Search (First Submission)' assignment on Gradescope before the listed Submission 1 deadline, you will receive your grade from our autograder (this includes both visible and hidden tests, though you will not be able to see what the hidden tests are). This is the same autograder that will be used on the Final Submission of the same project. The written part deadline for each project is always one day after the final code deadline. You are granted 3 late days for all (not each) projects. Read more about the grading policy in the Resources section.{' '}
                     </p>
                     <table className={styles.table} id={styles.projects_table}>
                         <thead>
@@ -130,7 +128,8 @@ const Home = (): JSX.Element => {
                                 <th>Release</th>
                                 <th>Submission 1 Due Date</th>
                                 <th>Submission 2 Due Date</th>
-                                <th>Final Due Date</th>
+                                <th>Final Code Due Date</th>
+                                <th>Written Part Due Date</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -147,6 +146,7 @@ const Home = (): JSX.Element => {
                                 <td>Sept 12</td>
                                 <td>N/A</td>
                                 <td>Sept 14</td>
+                                <td>Sept 15</td>
                             </tr>
                             <tr>
                                 <td>Search</td>
@@ -154,6 +154,7 @@ const Home = (): JSX.Element => {
                                 <td>Sept 20</td>
                                 <td>Sept 22</td>
                                 <td>Sept 24</td>
+                                <td>Sept 25</td>
                             </tr>
                             <tr>
                                 <td>Adversarial Search</td>
@@ -161,6 +162,7 @@ const Home = (): JSX.Element => {
                                 <td>Sept 29</td>
                                 <td>Oct 1</td>
                                 <td>Oct 4</td>
+                                <td>Oct 5</td>
                             </tr>
                             <tr>
                                 <td>KRR</td>
@@ -168,6 +170,7 @@ const Home = (): JSX.Element => {
                                 <td>Oct 7</td>
                                 <td>Oct 9</td>
                                 <td>Oct 12</td>
+                                <td>Oct 13</td>
                             </tr>
                             <tr>
                                 <td>HMM</td>
@@ -175,6 +178,7 @@ const Home = (): JSX.Element => {
                                 <td>Oct 19</td>
                                 <td>Oct 21</td>
                                 <td>Oct 27</td>
+                                <td>Oct 28</td>
                             </tr>
                             <tr>
                                 <td>Reinforcement Learning</td>
@@ -182,6 +186,7 @@ const Home = (): JSX.Element => {
                                 <td>Nov 2</td>
                                 <td>Nov 4</td>
                                 <td>Nov 8</td>
+                                <td>Nov 9</td>
                             </tr>
                             <tr>
                                 <td>Supervised Learning</td>
@@ -189,6 +194,7 @@ const Home = (): JSX.Element => {
                                 <td>Nov 16</td>
                                 <td>Nov 18</td>
                                 <td>Nov 22</td>
+                                <td>Nov 23</td>
                             </tr>
                             <tr>
                                 <td rowSpan={4}> Tron (4 parts) </td>
@@ -196,24 +202,28 @@ const Home = (): JSX.Element => {
                                 <td>TBD</td>
                                 <td>TBD</td>
                                 <td>Oct 18</td>
+                                <td>TBD</td>
                             </tr>
                             <tr>
                                 <td>Oct 13</td>
                                 <td>TBD</td>
                                 <td>TBD</td>
                                 <td>Nov 1</td>
+                                <td>TBD</td>
                             </tr>
                             <tr>
                                 <td>Oct 13</td>
                                 <td>TBD</td>
                                 <td>TBD</td>
                                 <td>Nov 22</td>
+                                <td>TBD</td>
                             </tr>
                             <tr>
                                 <td>Oct 13</td>
                                 <td>TBD</td>
                                 <td>TBD</td>
                                 <td>Dec 17</td>
+                                <td>TBD</td>
                             </tr>
                         </tbody>
                     </table>
