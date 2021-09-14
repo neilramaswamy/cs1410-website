@@ -57,7 +57,7 @@ const Home = (): JSX.Element => {
                             </tr>
                             <tr>
                                 <td>9/14 Search</td>
-                                <td></td>
+                                <td><a href='/slides/1410_2.pdf' target="_blank">pdf</a></td>
                                 <td></td>
                                 <td></td>
                             </tr>
@@ -332,6 +332,18 @@ const Home = (): JSX.Element => {
                                         target="_blank"
                                     >
                                         FastX Guide
+                                    </a>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <a
+                                        href="/files/python_numpy_guide.pdf"
+                                        target="_blank"
+                                    >
+                                        Python & Numpy Guide
                                     </a>
                                 </td>
                                 <td></td>
