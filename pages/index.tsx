@@ -146,7 +146,7 @@ const Home = (): JSX.Element => {
                                 <td>Sept 12</td>
                                 <td>N/A</td>
                                 <td>Sept 14</td>
-                                <td>Sept 15</td>
+                                <td>N/A</td>
                             </tr>
                             <tr>
                                 <td>Search</td>
