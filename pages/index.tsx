@@ -58,7 +58,7 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>9/14 Search</td>
                                 <td><a href='/slides/1410_2.pdf' target="_blank">pdf</a></td>
-                                <td></td>
+                                <td><a href='https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d4d56fbd-cf11-4965-89f4-ad9c014260e5' target="_blank">link</a></td>
                                 <td></td>
                             </tr>
                             <tr>
@@ -119,7 +119,7 @@ const Home = (): JSX.Element => {
                     <p>
                         All projects are in Python and due at 11:59pm Eastern on the listed date.
                         Before each project (besides the install assignment) you have two
-                        opportunities to receive results from our hidden tests. For instance, if you submit your code for Search to the 'Search (First Submission)' assignment on Gradescope before the listed Submission 1 deadline, you will receive your grade from our autograder (this includes both visible and hidden tests, though you will not be able to see what the hidden tests are). This is the same autograder that will be used on the Final Submission of the same project. The written part deadline for each project is always one day after the final code deadline. You are granted 3 late days for all (not each) projects. Read more about the grading policy in the Resources section.{' '}
+                        opportunities to receive results from our hidden tests. For instance, if you submit your code for Search to the 'Search (First Submission)' assignment on Gradescope before the listed Submission 1 deadline, you will receive your grade from our autograder once the deadline passes (this includes both visible and hidden tests, though you will not be able to see what the hidden tests are). This is the same autograder that will be used on the Final Submission of the same project. The deadline for the written portion of each project is always one day after the final code deadline. You are granted 3 late days for all (not each) projects. Read more about the grading policy in the Resources section.{' '}
                     </p>
                     <table className={styles.table} id={styles.projects_table}>
                         <thead>
