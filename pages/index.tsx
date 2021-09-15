@@ -149,7 +149,12 @@ const Home = (): JSX.Element => {
                                 <td>N/A</td>
                             </tr>
                             <tr>
-                                <td>Search</td>
+                                <td><a
+                                        href='/files/search_handout.pdf'
+                                        target='_blank'
+                                    > 
+                                        Search
+                                    </a></td>
                                 <td>Sept 15</td>
                                 <td>Sept 20</td>
                                 <td>Sept 22</td>
