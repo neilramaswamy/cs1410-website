@@ -63,7 +63,7 @@ const Home = (): JSX.Element => {
                             </tr>
                             <tr>
                                 <td>9/16 Game Theory</td>
-                                <td></td>
+                                <td><a href='/slides/1410_3.pdf' target="_blank">pdf</a></td>
                                 <td></td>
                                 <td></td>
                             </tr>
