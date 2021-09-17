@@ -64,7 +64,7 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>9/16 Game Theory</td>
                                 <td><a href='/slides/1410_3.pdf' target="_blank">pdf</a></td>
-                                <td></td>
+                                <td><a href='https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e5ff7333-a676-45ca-86bb-ad9c01426102' target="_blank">link</a></td>
                                 <td></td>
                             </tr>
                             <tr>
