@@ -37,7 +37,7 @@ const Home = (): JSX.Element => {
                     <h1>Lectures</h1>
                     <p className={styles.lecture_link}>
                         In person lectures take place Tuesdays and Thursdays from 1:00pm to
-                        2:20pm eastern time. Lectures slides will be posted prior to each lecture. Recordings will be available for remote students and review, which are available on <a href="https://brown.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22932ab3ad-c590-4c6f-b807-ad9c01423435%22" target='_blank'>Panopto</a>.
+                        2:20pm eastern time. Lectures slides will be posted prior to each lecture. Recordings will be available for remote students and review, which are available on <a href="https://brown.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22932ab3ad-c590-4c6f-b807-ad9c01423435%22" target='_blank'>Panopto</a>. The supplementary textbook for this course is <i>Artificial Intelligence: A Modern Approach (Pearson Series in Artifical Intelligence)</i>
                     </p>
                     <table className={styles.table}>
                         <thead>
@@ -69,7 +69,7 @@ const Home = (): JSX.Element => {
                             </tr>
                             <tr>
                                 <td>9/21 Adversarial Search</td>
-                                <td></td>
+                                <td><a href='/slides/1410_4.pdf' target="_blank">pdf</a></td>
                                 <td></td>
                                 <td></td>
                             </tr>
