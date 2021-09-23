@@ -74,8 +74,8 @@ const Home = (): JSX.Element => {
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>9/23 Knowledge Representation and Reasoning (Logical)</td>
-                                <td></td>
+                                <td>9/23 Knowledge Representation and Reasoning (Logic)</td>
+                                <td><a href='/slides/1410_5.pdf' target="_blank">pdf</a></td>
                                 <td></td>
                                 <td></td>
                             </tr>
