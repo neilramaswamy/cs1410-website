@@ -162,7 +162,12 @@ const Home = (): JSX.Element => {
                                 <td>Sept 25</td>
                             </tr>
                             <tr>
-                                <td>Adversarial Search</td>
+                                <td><a
+                                        href='/files/adversarial_search_handout.pdf'
+                                        target='_blank'
+                                    > 
+                                        Adversarial Search
+                                    </a></td>
                                 <td>Sept 25</td>
                                 <td>Sept 29</td>
                                 <td>Oct 1</td>
