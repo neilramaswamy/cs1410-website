@@ -113,17 +113,19 @@ const Home = (): JSX.Element => {
                             </tr>
                             <tr>
                                 <td>9/21 Adversarial Search</td>
-<<<<<<< HEAD
-                                <td><a href='/slides/1410_4.pdf' target="_blank">pdf</a></td>
-                                <td><a href='https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=22cdbeca-fec3-48c4-b6eb-ad9c0142611b' target="_blank">link</a></td>
-=======
                                 <td>
                                     <a href="/slides/1410_4.pdf" target="_blank">
                                         pdf
                                     </a>
                                 </td>
-                                <td></td>
->>>>>>> a00168c512569edf03a40c91d735f7a520685a7f
+                                <td>
+                                    <a
+                                        href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=22cdbeca-fec3-48c4-b6eb-ad9c0142611b"
+                                        target="_blank"
+                                    >
+                                        link
+                                    </a>
+                                </td>
                                 <td></td>
                             </tr>
                             <tr>
@@ -133,7 +135,14 @@ const Home = (): JSX.Element => {
                                         pdf
                                     </a>
                                 </td>
-                                <td></td>
+                                <td>
+                                    <a
+                                        href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a5ad83a1-0299-4bb8-b08a-ad9c01426135"
+                                        target="_blank"
+                                    >
+                                        link
+                                    </a>
+                                </td>
                                 <td></td>
                             </tr>
                             <tr>
