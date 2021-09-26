@@ -43,6 +43,13 @@ export const StaffMembers: StaffMember[] = [
         url: "/profile_pics/edward.jpg",
     },
     {
+        name: "Hyuk Ahn",
+        pronouns: "hahn19 (he/him)",
+        bio: "I'm a masters student from Korea. I love playing gaming, making games, and swimming.",
+        fav: "Pac-Man",
+        url: "/profile_pics/hyuk.jpg",
+    },
+    {
         name: "Jason C",
         pronouns: "jcrowle5 (he/him)",
         bio: "I'm a senior from Newton, MA. I like to play Smash Bros. and board games like Codenames with friends!",
@@ -76,6 +83,13 @@ export const StaffMembers: StaffMember[] = [
         bio: "I'm a junior from San Francisco, CA. I'm studying CS. I love playing jazz and using Typescript!",
         fav: "Space Invaders",
         url: "/profile_pics/neil.jpeg",
+    },
+    {
+        name: "Omer D",
+        pronouns: "odai (he/him)",
+        bio: "Hi! I'm a CS master's student from İstanbul. I like to listening to music and going to the gym.",
+        fav: "Tetris",
+        url: "/profile_pics/omer.jpg",
     },
     {
         name: "Paul K",

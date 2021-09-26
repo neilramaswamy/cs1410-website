@@ -70,7 +70,7 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>9/21 Adversarial Search</td>
                                 <td><a href='/slides/1410_4.pdf' target="_blank">pdf</a></td>
-                                <td></td>
+                                <td><a href='https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=22cdbeca-fec3-48c4-b6eb-ad9c0142611b' target="_blank">link</a></td>
                                 <td></td>
                             </tr>
                             <tr>
