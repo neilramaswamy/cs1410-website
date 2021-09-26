@@ -25,10 +25,8 @@ const Home = (): JSX.Element => {
                         gonna teach you how to teach computers common sense! Prerequisites to CS1410
                         include (CSCI 0160, 0180 or 0190) and (CSCI 0220, 1450, 0450, APMA 1650 or
                         1655) or minimum score of WAIVE in 'Graduate Student PreReq'. This course is
-                        taught by Professor George Konidaris.
-
-                        Students interested in taking CS1410 as a capstone course should email George at 
-                        george_konidaris@brown.edu.
+                        taught by Professor George Konidaris. Students interested in taking CS1410
+                        as a capstone course should email George at george_konidaris@brown.edu.
                     </p>
                 </div>
 
@@ -36,8 +34,21 @@ const Home = (): JSX.Element => {
                 <div className={styles.section} id={SectionID.Lectures}>
                     <h1>Lectures</h1>
                     <p className={styles.lecture_link}>
-                        In person lectures take place Tuesdays and Thursdays from 1:00pm to
-                        2:20pm eastern time. Lectures slides will be posted prior to each lecture. Recordings will be available for remote students and review, which are available on <a href="https://brown.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22932ab3ad-c590-4c6f-b807-ad9c01423435%22" target='_blank'>Panopto</a>. The supplementary textbook for this course is <i>Artificial Intelligence: A Modern Approach (Pearson Series in Artifical Intelligence)</i>
+                        In person lectures take place Tuesdays and Thursdays from 1:00pm to 2:20pm
+                        eastern time. Lectures slides will be posted prior to each lecture.
+                        Recordings will be available for remote students and review, which are
+                        available on{' '}
+                        <a
+                            href="https://brown.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22932ab3ad-c590-4c6f-b807-ad9c01423435%22"
+                            target="_blank"
+                        >
+                            Panopto
+                        </a>
+                        . The supplementary textbook for this course is{' '}
+                        <i>
+                            Artificial Intelligence: A Modern Approach (Pearson Series in Artifical
+                            Intelligence)
+                        </i>
                     </p>
                     <table className={styles.table}>
                         <thead>
@@ -51,31 +62,77 @@ const Home = (): JSX.Element => {
                         <tbody>
                             <tr>
                                 <td>9/9 Introduction; Agents and Agenthood</td>
-                                <td><a href='/slides/1410_1.pdf' target="_blank">pdf</a></td>
-                                <td><a href='https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2487ea72-b2c1-41f1-a203-ad9c0142609a' target="_blank">link</a></td>
+                                <td>
+                                    <a href="/slides/1410_1.pdf" target="_blank">
+                                        pdf
+                                    </a>
+                                </td>
+                                <td>
+                                    <a
+                                        href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2487ea72-b2c1-41f1-a203-ad9c0142609a"
+                                        target="_blank"
+                                    >
+                                        link
+                                    </a>
+                                </td>
                                 <td></td>
                             </tr>
                             <tr>
                                 <td>9/14 Search</td>
-                                <td><a href='/slides/1410_2.pdf' target="_blank">pdf</a></td>
-                                <td><a href='https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d4d56fbd-cf11-4965-89f4-ad9c014260e5' target="_blank">link</a></td>
+                                <td>
+                                    <a href="/slides/1410_2.pdf" target="_blank">
+                                        pdf
+                                    </a>
+                                </td>
+                                <td>
+                                    <a
+                                        href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d4d56fbd-cf11-4965-89f4-ad9c014260e5"
+                                        target="_blank"
+                                    >
+                                        link
+                                    </a>
+                                </td>
                                 <td></td>
                             </tr>
                             <tr>
                                 <td>9/16 Game Theory</td>
-                                <td><a href='/slides/1410_3.pdf' target="_blank">pdf</a></td>
-                                <td><a href='https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e5ff7333-a676-45ca-86bb-ad9c01426102' target="_blank">link</a></td>
+                                <td>
+                                    <a href="/slides/1410_3.pdf" target="_blank">
+                                        pdf
+                                    </a>
+                                </td>
+                                <td>
+                                    <a
+                                        href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e5ff7333-a676-45ca-86bb-ad9c01426102"
+                                        target="_blank"
+                                    >
+                                        link
+                                    </a>
+                                </td>
                                 <td></td>
                             </tr>
                             <tr>
                                 <td>9/21 Adversarial Search</td>
+<<<<<<< HEAD
                                 <td><a href='/slides/1410_4.pdf' target="_blank">pdf</a></td>
                                 <td><a href='https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=22cdbeca-fec3-48c4-b6eb-ad9c0142611b' target="_blank">link</a></td>
+=======
+                                <td>
+                                    <a href="/slides/1410_4.pdf" target="_blank">
+                                        pdf
+                                    </a>
+                                </td>
+                                <td></td>
+>>>>>>> a00168c512569edf03a40c91d735f7a520685a7f
                                 <td></td>
                             </tr>
                             <tr>
                                 <td>9/23 Knowledge Representation and Reasoning (Logic)</td>
-                                <td><a href='/slides/1410_5.pdf' target="_blank">pdf</a></td>
+                                <td>
+                                    <a href="/slides/1410_5.pdf" target="_blank">
+                                        pdf
+                                    </a>
+                                </td>
                                 <td></td>
                                 <td></td>
                             </tr>
@@ -119,7 +176,16 @@ const Home = (): JSX.Element => {
                     <p>
                         All projects are in Python and due at 11:59pm Eastern on the listed date.
                         Before each project (besides the install assignment) you have two
-                        opportunities to receive results from our hidden tests. For instance, if you submit your code for Search to the 'Search (First Submission)' assignment on Gradescope before the listed Submission 1 deadline, you will receive your grade from our autograder once the deadline passes (this includes both visible and hidden tests, though you will not be able to see what the hidden tests are). This is the same autograder that will be used on the Final Submission of the same project. The deadline for the written portion of each project is always one day after the final code deadline. You are granted 3 late days for all (not each) projects. Read more about the grading policy in the Resources section.{' '}
+                        opportunities to receive results from our hidden tests. For instance, if you
+                        submit your code for Search to the 'Search (First Submission)' assignment on
+                        Gradescope before the listed Submission 1 deadline, you will receive your
+                        grade from our autograder once the deadline passes (this includes both
+                        visible and hidden tests, though you will not be able to see what the hidden
+                        tests are). This is the same autograder that will be used on the Final
+                        Submission of the same project. The deadline for the written portion of each
+                        project is always one day after the final code deadline. You are granted 3
+                        late days for all (not each) projects. Read more about the grading policy in
+                        the Resources section.{' '}
                     </p>
                     <table className={styles.table} id={styles.projects_table}>
                         <thead>
@@ -135,10 +201,7 @@ const Home = (): JSX.Element => {
                         <tbody>
                             <tr>
                                 <td>
-                                    <a
-                                        href='/files/install_handout.pdf'
-                                        target='_blank'
-                                    > 
+                                    <a href="/files/install_handout.pdf" target="_blank">
                                         Install Assignment
                                     </a>
                                 </td>
@@ -149,12 +212,11 @@ const Home = (): JSX.Element => {
                                 <td>N/A</td>
                             </tr>
                             <tr>
-                                <td><a
-                                        href='/files/search_handout.pdf'
-                                        target='_blank'
-                                    > 
+                                <td>
+                                    <a href="/files/search_handout.pdf" target="_blank">
                                         Search
-                                    </a></td>
+                                    </a>
+                                </td>
                                 <td>Sept 15</td>
                                 <td>Sept 20</td>
                                 <td>Sept 22</td>
@@ -162,7 +224,11 @@ const Home = (): JSX.Element => {
                                 <td>Sept 25</td>
                             </tr>
                             <tr>
-                                <td>Adversarial Search</td>
+                                <td>
+                                    <a href="/files/adversarial_search_handout.pdf" target="_blank">
+                                        Adversarial Search
+                                    </a>
+                                </td>
                                 <td>Sept 25</td>
                                 <td>Sept 29</td>
                                 <td>Oct 1</td>
@@ -272,18 +338,15 @@ const Home = (): JSX.Element => {
                             </tr>
                             <tr>
                                 <td>
-                                    <a
-                                        href="/files/Collaboration_Policy.pdf"
-                                        target="_blank"
-                                    >
+                                    <a href="/files/Collaboration_Policy.pdf" target="_blank">
                                         Collaboration Policy
                                     </a>
                                 </td>
                                 <td>
                                     <a
-                                        href='https://docs.google.com/document/d/1hIOsp8SWZ5TJQpKyUgCtgKYk_ras92UiU6ljDC7qaUY/edit?usp=sharing'
-                                        target='_blank'
-                                    > 
+                                        href="https://docs.google.com/document/d/1hIOsp8SWZ5TJQpKyUgCtgKYk_ras92UiU6ljDC7qaUY/edit?usp=sharing"
+                                        target="_blank"
+                                    >
                                         Installation & Setup
                                     </a>
                                 </td>
@@ -300,10 +363,7 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td></td>
                                 <td>
-                                    <a
-                                        href="/files/requirements.txt"
-                                        download
-                                    >
+                                    <a href="/files/requirements.txt" download>
                                         requirements.txt
                                     </a>
                                 </td>
@@ -332,10 +392,7 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td></td>
                                 <td>
-                                    <a
-                                        href="/files/fastX_guide.pdf"
-                                        target="_blank"
-                                    >
+                                    <a href="/files/fastX_guide.pdf" target="_blank">
                                         FastX Guide
                                     </a>
                                 </td>
@@ -344,10 +401,7 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td></td>
                                 <td>
-                                    <a
-                                        href="/files/python_numpy_guide.pdf"
-                                        target="_blank"
-                                    >
+                                    <a href="/files/python_numpy_guide.pdf" target="_blank">
                                         Python & Numpy Guide
                                     </a>
                                 </td>
@@ -360,7 +414,10 @@ const Home = (): JSX.Element => {
                 {/* HOURS */}
                 <div className={styles.section} id={SectionID.Hours}>
                     <h1>Hours</h1>
-                    <p>In person TA Hours are held at the CIT Room 205. TA Hours will be available for remote students, times TBD!</p>
+                    <p>
+                        In person TA Hours are held at the CIT Room 205. TA Hours will be available
+                        for remote students, times TBD!
+                    </p>
                     <div className={styles.calendar}>
                         <iframe
                             src="https://calendar.google.com/calendar/embed?src=c_0580pi2rbochd9cq2l6gpch8b0%40group.calendar.google.com&ctz=America%2FNew_York"
@@ -383,7 +440,9 @@ const Home = (): JSX.Element => {
                         ))}
                     </div>
                     <div className={styles.emails}>
-                        <p>gdk@cs.brown.edu <br/> cs1410headtas@lists.brown.edu</p>
+                        <p>
+                            gdk@cs.brown.edu <br /> cs1410headtas@lists.brown.edu
+                        </p>
                     </div>
                 </div>
             </div>
