@@ -147,7 +147,11 @@ const Home = (): JSX.Element => {
                             </tr>
                             <tr>
                                 <td>9/30 Uncertain Knowledge and Bayes' Rule </td>
-                                <td></td>
+                                <td>
+                                    <a href="/slides/1410_6.pdf" target="_blank">
+                                        pdf
+                                    </a>
+                                </td>
                                 <td></td>
                                 <td></td>
                             </tr>
