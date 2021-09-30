@@ -157,7 +157,11 @@ const Home = (): JSX.Element => {
                             </tr>
                             <tr>
                                 <td>10/5 Hidden Markov Models </td>
-                                <td></td>
+                                <td>
+                                    <a href="/slides/1410_7.pdf" target="_blank">
+                                        pdf
+                                    </a>
+                                </td>
                                 <td></td>
                                 <td></td>
                             </tr>
