@@ -92,11 +92,25 @@ export const StaffMembers: StaffMember[] = [
         url: "/profile_pics/omer.jpg",
     },
     {
+        name: "Parker L",
+        pronouns: "pljung (he/him)",
+        bio: "I'm a senior from Chicago studying CS-Econ. I like to play soccer, draw Pokemon, and read.",
+        fav: "Dance Dance Revolution",
+        url: "/profile_pics/parker.JPG",
+    },
+    {
         name: "Paul K",
         pronouns: "pkrupski",
         bio: "I am from upstate NY and for hobbies enjoy road trips, camping, and national parks.",
         fav: "Cruis'n USA",
         url: "/profile_pics/paul.PNG",
+    },
+    {
+        name: "Phunn B",
+        pronouns: "pbooncho (he/him)",
+        bio: "I'm a senior from Thailand, concentrating in CS and Econ. I love listening to music and watching series!!!",
+        fav: "Pac-Man, Mario Bros.",
+        url: "/profile_pics/phunn.jpg",
     },
     {
         name: "Rena J",
@@ -111,5 +125,12 @@ export const StaffMembers: StaffMember[] = [
         bio: "Hi, I’m a senior studying Computer Science. I was born in Quy, Nhon, but I grew up in Dallas, TX.",
         fav: "Street Fighter",
         url: "/profile_pics/thien.jpeg",
+    },
+    {
+        name: "Wangsen T",
+        pronouns: "wtian8 (he/him)",
+        bio: "Hi! I'm a master's student from Chongqing, China. I enjoy badminton and video games!",
+        fav: "The King of Fighters",
+        url: "/profile_pics/wangsen.jpeg",
     }
 ] 
