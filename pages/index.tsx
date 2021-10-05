@@ -146,9 +146,26 @@ const Home = (): JSX.Element => {
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>9/30 Uncertain Knowledge and Bayes' Rule </td>
+                                <td>9/28 Uncertain Knowledge and Bayes' Rule </td>
                                 <td>
                                     <a href="/slides/1410_6.pdf" target="_blank">
+                                        pdf
+                                    </a>
+                                </td>
+                                <td>
+                                <a
+                                        href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=db11dba4-4724-453f-bc25-ad9c01426150"
+                                        target="_blank"
+                                    >
+                                        link
+                                    </a>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>9/30 Bayesian Networks </td>
+                                <td>
+                                    <a href="/slides/1410_7.pdf" target="_blank">
                                         pdf
                                     </a>
                                 </td>
@@ -158,7 +175,7 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>10/5 Hidden Markov Models </td>
                                 <td>
-                                    <a href="/slides/1410_7.pdf" target="_blank">
+                                    <a href="/slides/1410_8.pdf" target="_blank">
                                         pdf
                                     </a>
                                 </td>
