@@ -153,7 +153,7 @@ const Home = (): JSX.Element => {
                                     </a>
                                 </td>
                                 <td>
-                                <a
+                                    <a
                                         href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=db11dba4-4724-453f-bc25-ad9c01426150"
                                         target="_blank"
                                     >
@@ -169,7 +169,14 @@ const Home = (): JSX.Element => {
                                         pdf
                                     </a>
                                 </td>
-                                <td></td>
+                                <td>
+                                    <a
+                                        href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ea64b684-0192-4f0d-8644-ad9c0142616a"
+                                        target="_blank"
+                                    >
+                                        link
+                                    </a>
+                                </td>
                                 <td></td>
                             </tr>
                             <tr>
