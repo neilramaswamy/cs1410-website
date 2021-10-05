@@ -254,7 +254,7 @@ const Home = (): JSX.Element => {
                             </tr>
                             <tr>
                                 <td>
-                                    <a href="/files/KRR_handout.pdf" target="_blank">
+                                    <a href="/files/KRR_Handout.pdf" target="_blank">
                                         KRR
                                     </a>
                                 </td>
