@@ -118,7 +118,14 @@ const Home = (): JSX.Element => {
                                         pdf
                                     </a>
                                 </td>
-                                <td></td>
+                                <td>
+                                    <a
+                                        href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=22cdbeca-fec3-48c4-b6eb-ad9c0142611b"
+                                        target="_blank"
+                                    >
+                                        link
+                                    </a>
+                                </td>
                                 <td></td>
                             </tr>
                             <tr>
@@ -128,18 +135,33 @@ const Home = (): JSX.Element => {
                                         pdf
                                     </a>
                                 </td>
-                                <td></td>
+                                <td>
+                                    <a
+                                        href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a5ad83a1-0299-4bb8-b08a-ad9c01426135"
+                                        target="_blank"
+                                    >
+                                        link
+                                    </a>
+                                </td>
                                 <td></td>
                             </tr>
                             <tr>
                                 <td>9/30 Uncertain Knowledge and Bayes' Rule </td>
-                                <td></td>
+                                <td>
+                                    <a href="/slides/1410_6.pdf" target="_blank">
+                                        pdf
+                                    </a>
+                                </td>
                                 <td></td>
                                 <td></td>
                             </tr>
                             <tr>
                                 <td>10/5 Hidden Markov Models </td>
-                                <td></td>
+                                <td>
+                                    <a href="/slides/1410_7.pdf" target="_blank">
+                                        pdf
+                                    </a>
+                                </td>
                                 <td></td>
                                 <td></td>
                             </tr>
