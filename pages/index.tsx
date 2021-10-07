@@ -197,7 +197,7 @@ const Home = (): JSX.Element => {
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>10/7 Robot Motion Planning</td>
+                                <td>10/7 Robot Motion Planning </td>
                                 <td>
                                     <a href="/slides/1410_9.pdf" target="_blank">
                                         pdf
