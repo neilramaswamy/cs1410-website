@@ -186,7 +186,14 @@ const Home = (): JSX.Element => {
                                         pdf
                                     </a>
                                 </td>
-                                <td></td>
+                                <td>
+                                    <a
+                                        href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=606eb0e7-603d-42d0-b57c-ad9c01426187"
+                                        target="_blank"
+                                    >
+                                        link
+                                    </a>
+                                </td>
                                 <td></td>
                             </tr>
                             <tr>
