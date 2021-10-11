@@ -296,8 +296,8 @@ const Home = (): JSX.Element => {
                                 <td>Oct 5</td>
                                 <td>Oct 7</td>
                                 <td>Oct 9</td>
-                                <td>Oct 12</td>
                                 <td>Oct 13</td>
+                                <td>Oct 14</td>
                             </tr>
                             <tr>
                                 <td>HMM</td>
