@@ -311,7 +311,11 @@ const Home = (): JSX.Element => {
                                 <td>Oct 14</td>
                             </tr>
                             <tr>
-                                <td>HMM</td>
+                                <td>
+                                    <a href="/files/HMM.pdf" target="_blank">
+                                        HMM
+                                    </a>
+                                 </td>
                                 <td>Oct 13</td>
                                 <td>Oct 19</td>
                                 <td>Oct 21</td>
