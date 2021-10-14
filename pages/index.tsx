@@ -225,7 +225,11 @@ const Home = (): JSX.Element => {
                             </tr>
                             <tr>
                                 <td>10/14 Probabilistic Planning </td>
-                                <td></td>
+                                <td>
+                                <a href="/slides/1410_11.pdf" target="_blank">
+                                        pdf
+                                    </a>
+                                </td>
                                 <td></td>
                                 <td></td>
                             </tr>
