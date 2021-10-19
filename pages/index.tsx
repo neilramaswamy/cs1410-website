@@ -233,7 +233,7 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>10/14 Probabilistic Planning </td>
                                 <td>
-                                <a href="/slides/1410_11.pdf" target="_blank">
+                                    <a href="/slides/1410_11.pdf" target="_blank">
                                         pdf
                                     </a>
                                 </td>
@@ -343,10 +343,10 @@ const Home = (): JSX.Element => {
                                     <a href="/files/HMM.pdf" target="_blank">
                                         HMM
                                     </a>
-                                 </td>
+                                </td>
                                 <td>Oct 13</td>
-                                <td>Oct 19</td>
                                 <td>Oct 21</td>
+                                <td>Oct 25</td>
                                 <td>Oct 27</td>
                                 <td>Oct 28</td>
                             </tr>
@@ -367,7 +367,7 @@ const Home = (): JSX.Element => {
                                 <td>Nov 23</td>
                             </tr>
                             <tr>
-                                <td rowSpan={4}> 
+                                <td rowSpan={4}>
                                     <a href="/files/tron.pdf" target="_blank">
                                         Tron
                                     </a>
