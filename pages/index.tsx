@@ -220,13 +220,37 @@ const Home = (): JSX.Element => {
                                         pdf
                                     </a>
                                 </td>
-                                <td></td>
+                                <td>
+                                    <a
+                                        href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=23d92f12-47e4-4d1c-9679-ad9c014261c6"
+                                        target="_blank"
+                                    >
+                                        link
+                                    </a>
+                                </td>
                                 <td></td>
                             </tr>
                             <tr>
                                 <td>10/14 Probabilistic Planning </td>
                                 <td>
                                 <a href="/slides/1410_11.pdf" target="_blank">
+                                        pdf
+                                    </a>
+                                </td>
+                                <td>
+                                <a
+                                        href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=05b16e9c-def5-4014-87e5-ad9c014261e1"
+                                        target="_blank"
+                                    >
+                                        link
+                                    </a>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>10/14 Reinforcement Learning </td>
+                                <td>
+                                <a href="/slides/1410_12.pdf" target="_blank">
                                         pdf
                                     </a>
                                 </td>
