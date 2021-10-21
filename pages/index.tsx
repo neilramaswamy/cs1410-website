@@ -254,6 +254,23 @@ const Home = (): JSX.Element => {
                                         pdf
                                     </a>
                                 </td>
+                                <td>
+                                <a
+                                        href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8448babf-5845-402f-a5c7-ad9c014261fd"
+                                        target="_blank"
+                                    >
+                                        link
+                                    </a>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>10/14 Reinforcement Learning II </td>
+                                <td>
+                                <a href="/slides/1410_13.pdf" target="_blank">
+                                        pdf
+                                </a>
+                                </td>
                                 <td></td>
                                 <td></td>
                             </tr>
