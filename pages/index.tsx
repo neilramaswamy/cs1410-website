@@ -248,7 +248,7 @@ const Home = (): JSX.Element => {
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>10/14 Reinforcement Learning </td>
+                                <td>10/19 Reinforcement Learning </td>
                                 <td>
                                 <a href="/slides/1410_12.pdf" target="_blank">
                                         pdf
@@ -265,9 +265,26 @@ const Home = (): JSX.Element => {
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>10/14 Reinforcement Learning II </td>
+                                <td>10/21 Reinforcement Learning II </td>
                                 <td>
                                 <a href="/slides/1410_13.pdf" target="_blank">
+                                        pdf
+                                </a>
+                                </td>
+                                <td>
+                                <a
+                                        href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=41814363-56aa-4888-bb8c-ad9c0142621a"
+                                        target="_blank"
+                                    >
+                                        link
+                                    </a>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>10/26 Supervised Learning </td>
+                                <td>
+                                <a href="/slides/1410_14.pdf" target="_blank">
                                         pdf
                                 </a>
                                 </td>
