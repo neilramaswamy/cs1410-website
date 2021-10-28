@@ -288,6 +288,23 @@ const Home = (): JSX.Element => {
                                         pdf
                                 </a>
                                 </td>
+                                <td>
+                                <a
+                                        href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d9b3ebb2-470c-4024-af13-ad9c01426238"
+                                        target="_blank"
+                                    >
+                                        link
+                                    </a>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>10/28 Supervised Learning II </td>
+                                <td>
+                                <a href="/slides/1410_15.pdf" target="_blank">
+                                        pdf
+                                </a>
+                                </td>
                                 <td></td>
                                 <td></td>
                             </tr>
@@ -381,22 +398,22 @@ const Home = (): JSX.Element => {
                                 <td>Oct 13</td>
                                 <td>Oct 21</td>
                                 <td>Oct 25</td>
-                                <td>Oct 27</td>
-                                <td>Oct 28</td>
+                                <td>Oct 29</td>
+                                <td>Oct 30</td>
                             </tr>
                             <tr>
                                 <td>Reinforcement Learning</td>
-                                <td>Oct 28</td>
-                                <td>Nov 2</td>
+                                <td>Oct 30</td>
                                 <td>Nov 4</td>
+                                <td>Nov 6</td>
                                 <td>Nov 8</td>
                                 <td>Nov 9</td>
                             </tr>
                             <tr>
                                 <td>Supervised Learning</td>
                                 <td>Nov 10</td>
-                                <td>Nov 16</td>
                                 <td>Nov 18</td>
+                                <td>Nov 20</td>
                                 <td>Nov 22</td>
                                 <td>Nov 23</td>
                             </tr>
