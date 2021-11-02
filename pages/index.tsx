@@ -294,7 +294,7 @@ const Home = (): JSX.Element => {
                                         target="_blank"
                                     >
                                         link
-                                    </a>
+                                    </a> 
                                 </td>
                                 <td></td>
                             </tr>
@@ -302,6 +302,16 @@ const Home = (): JSX.Element => {
                                 <td>10/28 Supervised Learning II </td>
                                 <td>
                                 <a href="/slides/1410_15.pdf" target="_blank">
+                                        pdf
+                                </a>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>11/2 Unsupervised Learning </td>
+                                <td>
+                                <a href="/slides/1410_16.pdf" target="_blank">
                                         pdf
                                 </a>
                                 </td>
