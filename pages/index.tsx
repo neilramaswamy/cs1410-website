@@ -19,14 +19,18 @@ const Home = (): JSX.Element => {
                         <br /> Welcome to CS 1410!
                     </h1>
                     <p>
-                        CS1410 is an introductory course to the field of Artificial Intelligence,
-                        including knowledge representation and algorithms for search, optimization,
-                        planning, logical and probabilistic reasoning, and machine learning. We're
-                        gonna teach you how to teach computers common sense! Prerequisites to CS1410
-                        include (CSCI 0160, 0180 or 0190) and (CSCI 0220, 1450, 0450, APMA 1650 or
-                        1655) or minimum score of WAIVE in 'Graduate Student PreReq'. This course is
-                        taught by Professor George Konidaris. Students interested in taking CS1410
-                        as a capstone course should email George at george_konidaris@brown.edu.
+                        CS1410 is an introductory course to the field of
+                        Artificial Intelligence, including knowledge
+                        representation and algorithms for search, optimization,
+                        planning, logical and probabilistic reasoning, and
+                        machine learning. We're gonna teach you how to teach
+                        computers common sense! Prerequisites to CS1410 include
+                        (CSCI 0160, 0180 or 0190) and (CSCI 0220, 1450, 0450,
+                        APMA 1650 or 1655) or minimum score of WAIVE in
+                        'Graduate Student PreReq'. This course is taught by
+                        Professor George Konidaris. Students interested in
+                        taking CS1410 as a capstone course should email George
+                        at george_konidaris@brown.edu.
                     </p>
                 </div>
 
@@ -34,9 +38,10 @@ const Home = (): JSX.Element => {
                 <div className={styles.section} id={SectionID.Lectures}>
                     <h1>Lectures</h1>
                     <p className={styles.lecture_link}>
-                        In person lectures take place Tuesdays and Thursdays from 1:00pm to 2:20pm
-                        eastern time. Lectures slides will be posted prior to each lecture.
-                        Recordings will be available for remote students and review, which are
+                        In person lectures take place Tuesdays and Thursdays
+                        from 1:00pm to 2:20pm eastern time. Lectures slides will
+                        be posted prior to each lecture. Recordings will be
+                        available for remote students and review, which are
                         available on{' '}
                         <a
                             href="https://brown.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22932ab3ad-c590-4c6f-b807-ad9c01423435%22"
@@ -46,8 +51,8 @@ const Home = (): JSX.Element => {
                         </a>
                         . The supplementary textbook for this course is{' '}
                         <i>
-                            Artificial Intelligence: A Modern Approach (Pearson Series in Artifical
-                            Intelligence)
+                            Artificial Intelligence: A Modern Approach (Pearson
+                            Series in Artifical Intelligence)
                         </i>
                     </p>
                     <table className={styles.table}>
@@ -63,7 +68,10 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>9/9 Introduction; Agents and Agenthood</td>
                                 <td>
-                                    <a href="/slides/1410_1.pdf" target="_blank">
+                                    <a
+                                        href="/slides/1410_1.pdf"
+                                        target="_blank"
+                                    >
                                         pdf
                                     </a>
                                 </td>
@@ -80,7 +88,10 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>9/14 Search</td>
                                 <td>
-                                    <a href="/slides/1410_2.pdf" target="_blank">
+                                    <a
+                                        href="/slides/1410_2.pdf"
+                                        target="_blank"
+                                    >
                                         pdf
                                     </a>
                                 </td>
@@ -97,7 +108,10 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>9/16 Game Theory</td>
                                 <td>
-                                    <a href="/slides/1410_3.pdf" target="_blank">
+                                    <a
+                                        href="/slides/1410_3.pdf"
+                                        target="_blank"
+                                    >
                                         pdf
                                     </a>
                                 </td>
@@ -114,7 +128,10 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>9/21 Adversarial Search</td>
                                 <td>
-                                    <a href="/slides/1410_4.pdf" target="_blank">
+                                    <a
+                                        href="/slides/1410_4.pdf"
+                                        target="_blank"
+                                    >
                                         pdf
                                     </a>
                                 </td>
@@ -129,9 +146,15 @@ const Home = (): JSX.Element => {
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>9/23 Knowledge Representation and Reasoning (Logic)</td>
                                 <td>
-                                    <a href="/slides/1410_5.pdf" target="_blank">
+                                    9/23 Knowledge Representation and Reasoning
+                                    (Logic)
+                                </td>
+                                <td>
+                                    <a
+                                        href="/slides/1410_5.pdf"
+                                        target="_blank"
+                                    >
                                         pdf
                                     </a>
                                 </td>
@@ -146,9 +169,14 @@ const Home = (): JSX.Element => {
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>9/28 Uncertain Knowledge and Bayes' Rule </td>
                                 <td>
-                                    <a href="/slides/1410_6.pdf" target="_blank">
+                                    9/28 Uncertain Knowledge and Bayes' Rule{' '}
+                                </td>
+                                <td>
+                                    <a
+                                        href="/slides/1410_6.pdf"
+                                        target="_blank"
+                                    >
                                         pdf
                                     </a>
                                 </td>
@@ -165,7 +193,10 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>9/30 Bayesian Networks </td>
                                 <td>
-                                    <a href="/slides/1410_7.pdf" target="_blank">
+                                    <a
+                                        href="/slides/1410_7.pdf"
+                                        target="_blank"
+                                    >
                                         pdf
                                     </a>
                                 </td>
@@ -182,7 +213,10 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>10/5 Hidden Markov Models </td>
                                 <td>
-                                    <a href="/slides/1410_8.pdf" target="_blank">
+                                    <a
+                                        href="/slides/1410_8.pdf"
+                                        target="_blank"
+                                    >
                                         pdf
                                     </a>
                                 </td>
@@ -199,7 +233,10 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>10/7 Robot Motion Planning </td>
                                 <td>
-                                    <a href="/slides/1410_9.pdf" target="_blank">
+                                    <a
+                                        href="/slides/1410_9.pdf"
+                                        target="_blank"
+                                    >
                                         pdf
                                     </a>
                                 </td>
@@ -216,7 +253,10 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>10/12 Classical Planning</td>
                                 <td>
-                                    <a href="/slides/1410_10.pdf" target="_blank">
+                                    <a
+                                        href="/slides/1410_10.pdf"
+                                        target="_blank"
+                                    >
                                         pdf
                                     </a>
                                 </td>
@@ -233,12 +273,15 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>10/14 Probabilistic Planning </td>
                                 <td>
-                                    <a href="/slides/1410_11.pdf" target="_blank">
+                                    <a
+                                        href="/slides/1410_11.pdf"
+                                        target="_blank"
+                                    >
                                         pdf
                                     </a>
                                 </td>
                                 <td>
-                                <a
+                                    <a
                                         href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=05b16e9c-def5-4014-87e5-ad9c014261e1"
                                         target="_blank"
                                     >
@@ -250,12 +293,15 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>10/19 Reinforcement Learning </td>
                                 <td>
-                                <a href="/slides/1410_12.pdf" target="_blank">
+                                    <a
+                                        href="/slides/1410_12.pdf"
+                                        target="_blank"
+                                    >
                                         pdf
                                     </a>
                                 </td>
                                 <td>
-                                <a
+                                    <a
                                         href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8448babf-5845-402f-a5c7-ad9c014261fd"
                                         target="_blank"
                                     >
@@ -267,12 +313,15 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>10/21 Reinforcement Learning II </td>
                                 <td>
-                                <a href="/slides/1410_13.pdf" target="_blank">
+                                    <a
+                                        href="/slides/1410_13.pdf"
+                                        target="_blank"
+                                    >
                                         pdf
-                                </a>
+                                    </a>
                                 </td>
                                 <td>
-                                <a
+                                    <a
                                         href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=41814363-56aa-4888-bb8c-ad9c0142621a"
                                         target="_blank"
                                     >
@@ -284,12 +333,15 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>10/26 Supervised Learning </td>
                                 <td>
-                                <a href="/slides/1410_14.pdf" target="_blank">
+                                    <a
+                                        href="/slides/1410_14.pdf"
+                                        target="_blank"
+                                    >
                                         pdf
-                                </a>
+                                    </a>
                                 </td>
                                 <td>
-                                <a
+                                    <a
                                         href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d9b3ebb2-470c-4024-af13-ad9c01426238"
                                         target="_blank"
                                     >
@@ -301,9 +353,12 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td>10/28 Supervised Learning II </td>
                                 <td>
-                                <a href="/slides/1410_15.pdf" target="_blank">
+                                    <a
+                                        href="/slides/1410_15.pdf"
+                                        target="_blank"
+                                    >
                                         pdf
-                                </a>
+                                    </a>
                                 </td>
                                 <td></td>
                                 <td></td>
@@ -326,18 +381,22 @@ const Home = (): JSX.Element => {
                 <div className={styles.section} id={SectionID.Projects}>
                     <h1>Projects</h1>
                     <p>
-                        All projects are in Python and due at 11:59pm Eastern on the listed date.
-                        Before each project (besides the install assignment) you have two
-                        opportunities to receive results from our hidden tests. For instance, if you
-                        submit your code for Search to the 'Search (First Submission)' assignment on
-                        Gradescope before the listed Submission 1 deadline, you will receive your
-                        grade from our autograder once the deadline passes (this includes both
-                        visible and hidden tests, though you will not be able to see what the hidden
-                        tests are). This is the same autograder that will be used on the Final
-                        Submission of the same project. The deadline for the written portion of each
-                        project is always one day after the final code deadline. You are granted 3
-                        late days for all (not each) projects. Read more about the grading policy in
-                        the Resources section.{' '}
+                        All projects are in Python and due at 11:59pm Eastern on
+                        the listed date. Before each project (besides the
+                        install assignment) you have two opportunities to
+                        receive results from our hidden tests. For instance, if
+                        you submit your code for Search to the 'Search (First
+                        Submission)' assignment on Gradescope before the listed
+                        Submission 1 deadline, you will receive your grade from
+                        our autograder once the deadline passes (this includes
+                        both visible and hidden tests, though you will not be
+                        able to see what the hidden tests are). This is the same
+                        autograder that will be used on the Final Submission of
+                        the same project. The deadline for the written portion
+                        of each project is always one day after the final code
+                        deadline. You are granted 3 late days for all (not each)
+                        projects. Read more about the grading policy in the
+                        Resources section.{' '}
                     </p>
                     <table className={styles.table} id={styles.projects_table}>
                         <thead>
@@ -353,7 +412,10 @@ const Home = (): JSX.Element => {
                         <tbody>
                             <tr>
                                 <td>
-                                    <a href="/files/install_handout.pdf" target="_blank">
+                                    <a
+                                        href="/files/install_handout.pdf"
+                                        target="_blank"
+                                    >
                                         Install Assignment
                                     </a>
                                 </td>
@@ -365,7 +427,10 @@ const Home = (): JSX.Element => {
                             </tr>
                             <tr>
                                 <td>
-                                    <a href="/files/search_handout.pdf" target="_blank">
+                                    <a
+                                        href="/files/search_handout.pdf"
+                                        target="_blank"
+                                    >
                                         Search
                                     </a>
                                 </td>
@@ -377,7 +442,10 @@ const Home = (): JSX.Element => {
                             </tr>
                             <tr>
                                 <td>
-                                    <a href="/files/adversarial_search_handout.pdf" target="_blank">
+                                    <a
+                                        href="/files/adversarial_search_handout.pdf"
+                                        target="_blank"
+                                    >
                                         Adversarial Search
                                     </a>
                                 </td>
@@ -389,7 +457,10 @@ const Home = (): JSX.Element => {
                             </tr>
                             <tr>
                                 <td>
-                                    <a href="/files/KRR_Handout.pdf" target="_blank">
+                                    <a
+                                        href="/files/KRR_Handout.pdf"
+                                        target="_blank"
+                                    >
                                         KRR
                                     </a>
                                 </td>
@@ -412,7 +483,14 @@ const Home = (): JSX.Element => {
                                 <td>Oct 30</td>
                             </tr>
                             <tr>
-                                <td>Reinforcement Learning</td>
+                                <td>
+                                    <a
+                                        href="/files/rl_handout.pdf"
+                                        target="_blank"
+                                    >
+                                        Reinforcement Learning
+                                    </a>
+                                </td>
                                 <td>Oct 30</td>
                                 <td>Nov 4</td>
                                 <td>Nov 6</td>
@@ -478,7 +556,10 @@ const Home = (): JSX.Element => {
                         <tbody>
                             <tr>
                                 <td>
-                                    <a href="/files/2021_CS1410_grading_policy.pdf" target="_blank">
+                                    <a
+                                        href="/files/2021_CS1410_grading_policy.pdf"
+                                        target="_blank"
+                                    >
                                         Grading and Late Day Policy
                                     </a>
                                 </td>
@@ -502,7 +583,10 @@ const Home = (): JSX.Element => {
                             </tr>
                             <tr>
                                 <td>
-                                    <a href="/files/Collaboration_Policy.pdf" target="_blank">
+                                    <a
+                                        href="/files/Collaboration_Policy.pdf"
+                                        target="_blank"
+                                    >
                                         Collaboration Policy
                                     </a>
                                 </td>
@@ -556,7 +640,10 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td></td>
                                 <td>
-                                    <a href="/files/fastX_guide.pdf" target="_blank">
+                                    <a
+                                        href="/files/fastX_guide.pdf"
+                                        target="_blank"
+                                    >
                                         FastX Guide
                                     </a>
                                 </td>
@@ -565,7 +652,10 @@ const Home = (): JSX.Element => {
                             <tr>
                                 <td></td>
                                 <td>
-                                    <a href="/files/python_numpy_guide.pdf" target="_blank">
+                                    <a
+                                        href="/files/python_numpy_guide.pdf"
+                                        target="_blank"
+                                    >
                                         Python & Numpy Guide
                                     </a>
                                 </td>
@@ -579,13 +669,17 @@ const Home = (): JSX.Element => {
                 <div className={styles.section} id={SectionID.Hours}>
                     <h1>Hours</h1>
                     <p>
-                        In person TA Hours are held at the CIT Room 205. TA Hours will be available
-                        for remote students, times TBD!
+                        In person TA Hours are held at the CIT Room 205. TA
+                        Hours will be available for remote students, times TBD!
                     </p>
                     <div className={styles.calendar}>
                         <iframe
                             src="https://calendar.google.com/calendar/embed?src=c_0580pi2rbochd9cq2l6gpch8b0%40group.calendar.google.com&ctz=America%2FNew_York"
-                            style={{ borderWidth: 0, resize: 'both', overflowX: 'scroll' }}
+                            style={{
+                                borderWidth: 0,
+                                resize: 'both',
+                                overflowX: 'scroll',
+                            }}
                             width="100%"
                             height="650px"
                             frameBorder="0"
@@ -605,7 +699,8 @@ const Home = (): JSX.Element => {
                     </div>
                     <div className={styles.emails}>
                         <p>
-                            gdk@cs.brown.edu <br /> cs1410headtas@lists.brown.edu
+                            gdk@cs.brown.edu <br />{' '}
+                            cs1410headtas@lists.brown.edu
                         </p>
                     </div>
                 </div>
