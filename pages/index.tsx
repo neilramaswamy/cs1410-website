@@ -360,7 +360,14 @@ const Home = (): JSX.Element => {
                                         pdf
                                     </a>
                                 </td>
-                                <td></td>
+                                <td>
+                                <a
+                                        href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2de01756-6d76-40e6-965d-ad9c01426257"
+                                        target="_blank"
+                                    >
+                                        link
+                                    </a> 
+                                </td>
                                 <td></td>
                             </tr>
                             <tr>
@@ -370,7 +377,41 @@ const Home = (): JSX.Element => {
                                         pdf
                                 </a>
                                 </td>
+                                <td>
+                                <a
+                                        href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=41170024-2e73-495f-a58f-ad9c01426275"
+                                        target="_blank"
+                                    >
+                                        link
+                                    </a> 
+                                </td>
                                 <td></td>
+                            </tr>
+                            <tr>
+                                <td>11/4 Unsupervised Learning II </td>
+                                <td>
+                                <a href="/slides/1410_17.pdf" target="_blank">
+                                        pdf
+                                </a>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>11/9 Natural Language Processing </td>
+                                <td>
+                                <a href="/slides/1410_18.pdf" target="_blank">
+                                        pdf
+                                </a>
+                                </td>
+                                <td>
+                                <a
+                                        href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5d4caf5d-2e85-4ea7-8df7-ad9c014262b4"
+                                        target="_blank"
+                                    >
+                                        link
+                                    </a> 
+                                </td>
                                 <td></td>
                             </tr>
                         </tbody>
