@@ -539,7 +539,14 @@ const Home = (): JSX.Element => {
                                 <td>Nov 9</td>
                             </tr>
                             <tr>
-                                <td>Supervised Learning</td>
+                                <td>
+                                <a
+                                        href="/files/slhandout.pdf"
+                                        target="_blank"
+                                    >
+                                        Reinforcement Learning
+                                    </a>
+                                </td>
                                 <td>Nov 10</td>
                                 <td>Nov 18</td>
                                 <td>Nov 20</td>
