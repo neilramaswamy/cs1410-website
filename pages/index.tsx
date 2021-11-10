@@ -544,7 +544,7 @@ const Home = (): JSX.Element => {
                                         href="/files/slhandout.pdf"
                                         target="_blank"
                                     >
-                                        Reinforcement Learning
+                                        Supervised Learning
                                     </a>
                                 </td>
                                 <td>Nov 10</td>
