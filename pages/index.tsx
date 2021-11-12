@@ -11,7 +11,14 @@ const Home = (): JSX.Element => {
                 <Header />
             </div>
 
+
             <div className={styles.main_body}>
+
+                {/* !! Tron Tournament !!*/}
+                <div className={styles.section}>
+                <html><head><link href='https://fonts.googleapis.com/css2?family=Orbitron&family=Raleway&display=swap'         rel='stylesheet'/> <link rel='stylesheet' href='./tron_results.css'/></head><body><h1>Tron Tournament Results</h1>         Published on Nov 11 at 09:46 PM <table><tr><th>Player</th><th>Score</th><th>ELO</th></tr><tr><td>code monkey knows all</td><td>5.0</td><td>1672.2474704348529</td></tr><tr><td>flynn&gt;MCP</td><td>3.5</td><td>1629.1558935788855</td></tr><tr><td>Box Theory</td><td>3.5</td><td>1628.118688121616</td></tr><tr><td>Terminator</td><td>2.0</td><td>1585.787580892644</td></tr><tr><td>DFS</td><td>1.0</td><td>1556.9396177536712</td></tr><tr><td>ZaleX</td><td>0.0</td><td>1527.2205384064796</td></tr></table></body></html>
+                </div>
+
                 {/* COURSE INFO */}
                 <div className={styles.section}>
                     <h1>
