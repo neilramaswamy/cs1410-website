@@ -16,7 +16,7 @@ const Home = (): JSX.Element => {
 
                 {/* !! Tron Tournament !!*/}
                 <div className={styles.section}>
-                <html><head><link href='https://fonts.googleapis.com/css2?family=Orbitron&family=Raleway&display=swap'         rel='stylesheet'/> <link rel='stylesheet' href='./tron_results.css'/></head><body><h1>Tron Tournament Results</h1>         Published on Nov 13 at 07:27 PM <table className={styles.table}><tr><th>Player</th><th>Score</th><th>ELO</th></tr><tr><td>Alita: Battle Angel</td><td>9.5</td><td>1708.718969820758</td></tr><tr><td>GOAT BOT</td><td>8.5</td><td>1680.6419157304956</td></tr><tr><td>code monkey knows all</td><td>8.0</td><td>1669.3698025619701</td></tr><tr><td>flynn&gt;MCP</td><td>8.0</td><td>1668.1485157286925</td></tr><tr><td>b71d452f-fe9d-4445-9146-8de30f11eae1</td><td>7.5</td><td>1654.732726917084</td></tr><tr><td>Terminator</td><td>7.0</td><td>1639.84108183382</td></tr><tr><td>Box Theory</td><td>6.5</td><td>1624.549912060546</td></tr><tr><td>GLaDOS</td><td>4.5</td><td>1573.6592589314039</td></tr><tr><td>DFS</td><td>3.0</td><td>1532.2841095106473</td></tr><tr><td>AvengingKnight</td><td>1.5</td><td>1492.4311269787916</td></tr><tr><td>ZaleX</td><td>1.5</td><td>1489.8146807626945</td></tr><tr><td>GreedyBot</td><td>0.5</td><td>1467.2291820630178</td></tr></table></body></html>
+                <html><head><link href='https://fonts.googleapis.com/css2?family=Orbitron&family=Raleway&display=swap'         rel='stylesheet'/> <link rel='stylesheet' href='./tron_results.css'/></head><body><h1>Tron Tournament Results</h1>         Published on Nov 15 at 07:27 PM <table className={styles.table}><tr><th>Player</th><th>Score</th><th>ELO</th></tr><tr><td>Alita: Battle Angel</td><td>9.5</td><td>1708.718969820758</td></tr><tr><td>GOAT BOT</td><td>8.5</td><td>1680.6419157304956</td></tr><tr><td>code monkey knows all</td><td>8.0</td><td>1669.3698025619701</td></tr><tr><td>flynn&gt;MCP</td><td>8.0</td><td>1668.1485157286925</td></tr><tr><td>b71d452f-fe9d-4445-9146-8de30f11eae1</td><td>7.5</td><td>1654.732726917084</td></tr><tr><td>Terminator</td><td>7.0</td><td>1639.84108183382</td></tr><tr><td>Box Theory</td><td>6.5</td><td>1624.549912060546</td></tr><tr><td>GLaDOS</td><td>4.5</td><td>1573.6592589314039</td></tr><tr><td>DFS</td><td>3.0</td><td>1532.2841095106473</td></tr><tr><td>AvengingKnight</td><td>1.5</td><td>1492.4311269787916</td></tr><tr><td>ZaleX</td><td>1.5</td><td>1489.8146807626945</td></tr><tr><td>GreedyBot</td><td>0.5</td><td>1467.2291820630178</td></tr></table></body></html>
                 </div>
 
                 {/* COURSE INFO */}
@@ -555,8 +555,8 @@ const Home = (): JSX.Element => {
                                     </a>
                                 </td>
                                 <td>Nov 10</td>
-                                <td>Nov 18</td>
-                                <td>Nov 20</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
                                 <td>Nov 22</td>
                                 <td>Nov 23</td>
                             </tr>
