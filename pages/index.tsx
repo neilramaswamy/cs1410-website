@@ -421,6 +421,17 @@ const Home = (): JSX.Element => {
                                 </td>
                                 <td></td>
                             </tr>
+                            <tr>
+                                <td>11/16 Natural Language Processing </td>
+                                <td>
+                                <a href="/slides/1410_19.pdf" target="_blank">
+                                        pdf
+                                </a>
+                                </td>
+                                <td>
+                                </td>
+                                <td></td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
