@@ -432,6 +432,17 @@ const Home = (): JSX.Element => {
                                 </td>
                                 <td></td>
                             </tr>
+                            <tr>
+                                <td>11/18 Robotics </td>
+                                <td>
+                                <a href="/slides/1410_20.pdf" target="_blank">
+                                        pdf
+                                </a>
+                                </td>
+                                <td>
+                                </td>
+                                <td></td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
