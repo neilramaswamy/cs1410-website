@@ -442,6 +442,17 @@ const Home = (): JSX.Element => {
                                 </td>
                                 <td></td>
                             </tr>
+                            <tr>
+                                <td>11/29 The Philosophy of AI </td>
+                                <td>
+                                <a href="/slides/1410_21.pdf" target="_blank">
+                                        pdf
+                                </a>
+                                </td>
+                                <td>
+                                </td>
+                                <td></td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -699,7 +710,6 @@ const Home = (): JSX.Element => {
                                         CS Health & Wellness
                                     </a>
                                 </td>
-                                {/* https://cs.brown.edu/about/system/connecting/ssh/ */}
                             </tr>
                             <tr>
                                 <td></td>
